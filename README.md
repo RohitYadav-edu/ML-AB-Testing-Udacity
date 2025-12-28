@@ -10,6 +10,24 @@ The goal is to determine whether a **new experimental page** leads to better use
 
 ---
 
+## README Index
+
+1. Problem Statement
+2. Dataset
+3. Conversion Funnel
+4. A/B Test - Statistical Method
+5. A/B Test Results (Unadjusted)
+6. CUPED – Variance Reduction
+   1. Intuition
+   2. Mathematical Formulation
+   3. Implementation in This Project
+   4. CUPED Result
+7. Final Conclusion
+8. Tech Stack
+9. Repository Structure
+
+---
+
 ## 1. Problem Statement
 
 Udacity is testing a new course signup page:
@@ -217,7 +235,7 @@ From a product perspective, this would suggest:
 
 ---
 
-## 9. Project Structure
+## 9. Repository Structure
 
 ```text
 ml-abtest-udacity/
@@ -232,3 +250,4 @@ ml-abtest-udacity/
 │
 ├── requirements.txt
 └── README.md
+```
